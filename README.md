@@ -8,6 +8,8 @@ To build the Ore CLI, you will need to have the Rust programming language instal
 
 You must have CUDA installed [NVIDIA Cuda Download](https://developer.nvidia.com/cuda-downloads)
 
+You must have Visual Studio Community 2022 installed along with C++ build tools. (You will need to find the path to the \bin\Hostx64\x64 folder for VS for a later step)
+
 You Must have access to an RPC server like [Helius](dev.helius.xyz) (user referral code "aE9l0R4LPx" for extras) or Quicknode (there are others. these are best IMO)
 
 You must have a (or several) solana keypair(s). Save these in the same directory as the one created by the git clone as "id.json", "id2.json", "id3.json", etc.
