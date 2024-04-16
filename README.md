@@ -37,7 +37,7 @@ cargo build --release
 
 
 ```sh
-/Users/[username]/ore-gpu/target/release/ore.exe --rpc "" --priority-fee 100000 --keypair 'path to keypair' --threads 4
+/Users/[username]/ore-gpu/target/release/ore.exe --rpc "" --priority-fee 100000 --keypair 'path to keypair' mine --threads 4
 ```
 
 You will now run your hashing on the GPU instead of the CPU!
