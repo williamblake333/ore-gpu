@@ -36,7 +36,7 @@ nvcc linux.cu -o linux
 ```sh
 cargo build --release
 ```
-
+**PLEASE NOTE: Any time you make a change to the source code (mine.rs for example), you NEED to re-rerun cargo build --release!**
 
 ```sh
 /Users/[username]/ore-gpu/target/release/ore.exe --rpc "" --priority-fee 100000 --keypair "path to keypair" mine --threads 4
